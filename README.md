@@ -23,12 +23,16 @@ All requests require JWT OAuth2.0 token in order to function.
 
 ### Endpoint
 
+```
 {{url}}/auth
+```
 
 ### Header
 
+```
 Content-Type	application/json
 Accept      	application/json
+```
 
 ### Body
 
@@ -53,13 +57,17 @@ Images should be base64 encoded.
 
 ### Endpoint
 
+```
 {{url}}/api/v1/segment
+```
 
 ### Header
 
+```
 Content-Type	application/json
 Accept      	application/json
 Authorization   JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjkyNTIwMzIsImlhdCI6MTUyOTI1MDIzMiwibmJmIjoxNTI5MjUwMjMyLCJpZGVudGl0eSI6Mn0.f_qLJwkOulNyz8jRlSQiFukSUnbBF9kSwudcPjbG-jU
+```
 
 ### Body
 
@@ -95,13 +103,17 @@ The task is handled asynchronously via Redis Queue RQ and Job ID is returned for
 
 ### Endpoint
 
+```
 {{url}}/api/v1/generate
+```
 
 ### Header
 
+```
 Content-Type	application/json
 Accept      	application/json
 Authorization   JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjkyNTIwMzIsImlhdCI6MTUyOTI1MDIzMiwibmJmIjoxNTI5MjUwMjMyLCJpZGVudGl0eSI6Mn0.f_qLJwkOulNyz8jRlSQiFukSUnbBF9kSwudcPjbG-jU
+```
 
 ### Body
 
@@ -158,13 +170,17 @@ The task is handled asynchronously via Redis Queue RQ and Job ID is returned for
 
 ### Endpoint
 
+```
 {{url}}/api/v1/train
+```
 
 ### Header
 
+```
 Content-Type	application/json
 Accept      	application/json
 Authorization   JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjkyNTIwMzIsImlhdCI6MTUyOTI1MDIzMiwibmJmIjoxNTI5MjUwMjMyLCJpZGVudGl0eSI6Mn0.f_qLJwkOulNyz8jRlSQiFukSUnbBF9kSwudcPjbG-jU
+```
 
 ### Body
 
@@ -219,13 +235,17 @@ Note: Update the labels in the source code if necessary
 
 ### Endpoint
 
+```
 {{url}}/api/v1/predict
+```
 
 ### Header
 
+```
 Content-Type	application/json
 Accept      	application/json
 Authorization   JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MjkyNTIwMzIsImlhdCI6MTUyOTI1MDIzMiwibmJmIjoxNTI5MjUwMjMyLCJpZGVudGl0eSI6Mn0.f_qLJwkOulNyz8jRlSQiFukSUnbBF9kSwudcPjbG-jU
+```
 
 ### Body
 
